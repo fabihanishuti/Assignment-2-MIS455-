@@ -1,0 +1,41 @@
+.div {
+    display: block;
+  }
+  
+  .navbar {
+    display: grid;
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+  
+  .navbar-brand img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    display: flex;
+    color: black;
+    font-family: "Lora", serif;
+    font-weight: 700;
+    padding: 15px 30px;
+  }
+  
+  .heading {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    padding: 15px 0;
+  }
+  
+  .card-group {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  .footer {
+    width: 100%;
+    background-color: rgb(236, 173, 173);
+    color: black;
+    font-family: "Lora", serif;
+  }
